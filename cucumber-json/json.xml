@@ -1,0 +1,106 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login amazon scenario with valid credentials",
+        "description": "",
+        "id": "amazon-login-feature;login-amazon-scenario-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2734336400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on login page",
+            "match": {
+              "location": "LoginStepDefinitions.user_is_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6361600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title is amazon signOn Page",
+            "match": {
+              "location": "LoginStepDefinitions.title_is_amazon_signOn_Page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 176101000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters email",
+            "match": {
+              "location": "LoginStepDefinitions.user_enters_email()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 429295300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on continue",
+            "match": {
+              "location": "LoginStepDefinitions.user_clicks_on_continue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51528100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters password",
+            "match": {
+              "location": "LoginStepDefinitions.user_enters_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 72171600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on loginButton",
+            "match": {
+              "location": "LoginStepDefinitions.user_clicks_on_loginButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 683478600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user close the browser",
+            "match": {
+              "location": "LoginStepDefinitions.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Amazon login feature",
+    "description": "",
+    "id": "amazon-login-feature",
+    "keyword": "Feature",
+    "uri": "C:/Selenium_workspace/FreeAmazonBddFreamwork1/src/main/java/features/login.feature"
+  }
+]
